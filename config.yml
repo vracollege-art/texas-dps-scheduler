@@ -5,17 +5,17 @@ personalInfo:
   loadFromEnv: false
 
   # if loadFromEnv is true, anything in personalInfo beside typeId is ignored
-  firstName: 'John'
-  lastName: 'Doe'
+  firstName: 'Victoria'
+  lastName: 'Agbonlahor'
   # Date of birth (MM/DD/YYYY)
-  dob: '01/01/2001'
+  dob: '09/26/1999'
   # Use real email to get appointment infomation
-  email: ''
+  email: 'vracollege@gmail.com'
   # Not really needed but good to have a real one
-  lastFourSSN: '1001'
+  lastFourSSN: '5288'
   # If you want to recieve notificaion through phone, if not keep blank
   # WARNING: Use number only (Ex: 111111111)
-  phoneNumber: ''
+  phoneNumber: '3234990578'
 
   # If you are doing new Texas DL appointment, you can leave this blank
   # Put your real Texas DL number here, if you are doing DL renewal appointments.
@@ -24,14 +24,14 @@ personalInfo:
 
   # Serivce you needed at DPS. Check the full list on https://github.com/phamleduy04/texas-dps-scheduler/wiki/TypeId-list
   # If you need to apply for Texas DL you don't need to change it
-  typeId: 71
+  typeId: 72
 
 location:
   # Search DPS Locations by City Name, if City name is given, zipCode is ignored.
   # If you don't want to search by city name, set it to ['']
-  cityName: ['']
+  cityName: ['carrolton']
   # Zipcode of your location. Can add more DPS location by using ',' for multiple zipcode
-  zipCode: ['75067', '75080']
+  zipCode: ['75010',]
   # Choose your DPS location by yourself when running the application if set to true
   pickDPSLocation: false
   # Get appointment from all DPS location by distance from the zipcode, will auto skip this when pickDPSLocation is true
